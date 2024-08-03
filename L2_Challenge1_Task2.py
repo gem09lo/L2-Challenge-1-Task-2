@@ -3,10 +3,6 @@
 
 def digitize(n):
     n = str(n)
-    #lst = []
-    #for d in n:
-        #lst.append(int(d))
-    #return lst[::-1]
     lst = [int(d) for d in n]
     return lst[::-1]
 
